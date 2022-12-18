@@ -14,7 +14,7 @@
  *= require_self
  */
 
-body {
+ body {
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,7 @@ header.main {
     }
     nav {
         padding-bottom: 1em;
-        background: rgb(241, 129, 24);
+        background: rgb(15, 12, 10);
         text-align: center; // mobile has centered nav
         @media (min-width: 30em) {
             text-align: left; // desktop nav is left-aligned
@@ -81,12 +81,23 @@ header.main {
                 }
                 a:hover {
                     background: none;
-                    color: rgb(15, 10, 10);
+                    color: rgb(207, 83, 25);
                 }
             }
         }   
     }
     main {
         padding: 0.5em;
+    }
+
+    .notice, #notice {
+        background: #ffb;
+        border-radius: 0.5em;
+        border: solid 0.177em #882;
+        color: #882;
+        font-weight: bold;
+        margin-bottom: 1em;
+        padding: 1em 1.414em;
+        text-align: center;
     }
 }
