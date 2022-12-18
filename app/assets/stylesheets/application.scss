@@ -14,18 +14,28 @@
  *= require_self
  */
 
- body {
+body {
     margin: 0;
     padding: 0;
-    }
+}
 
 header.main {
     text-align: center; // center on mobile
     @media (min-width: 30em) {
         text-align: left; // left align on desktop
+        
     }
-    background: rgb(5, 177, 245);
+    background: rgb(241, 129, 24);
     margin: 0;
+    .logo{
+        padding-left: 1em;
+    }
+    h2.name {
+        text-align: left; 
+        margin-top: 0em;
+        margin-bottom: 0em;
+        color: rgb(0, 0, 0);
+    }
     h1 {
         display: none;
     }
@@ -55,6 +65,7 @@ header.main {
             list-style: none;
             margin: 0;
             padding: 0;
+            padding-top: 2em;
             @media (min-width: 30em) {
                 padding-right: 1em; // give desktop some extra space
             }
@@ -64,12 +75,13 @@ header.main {
                 text-transform: uppercase;
                 letter-spacing: 0.354em;
                 a {
-                    color: rgb(143, 12, 230);
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
                     text-decoration: none;
                 }
                 a:hover {
                     background: none;
-                    color: white;
+                    color: rgb(15, 10, 10);
                 }
             }
         }   
