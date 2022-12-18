@@ -1,25 +1,7 @@
-<%# <!DOCTYPE html>
-<html>
-  <head>
-    <title>Online_Store</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%# <%= csp_meta_tag %>
-
-    <%# <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%# <%= javascript_importmap_tags %> 
-  <%# </head>
-
-  <body>
-  <main class='<%= controller.controller_name %>
-    <%# <%= yield %>
-  <%# </body>
-</html> %> 
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pragprog Books Online Store</title>
+    <title>Instrument Online Store</title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_importmap_tags %> 
@@ -27,7 +9,8 @@
 
   <body>
     <header class="main">
-      <%# <%= image_tag 'logo.svg', alt: 'The Pragmatic Bookshelf' %> 
+      <h2 class="name">Instrument Store</h2> 
+      <div class="logo"><%= image_tag 'logo.png', width: 200%></div>
       <h1><%= @page_title %></h1>
     </header>
 
