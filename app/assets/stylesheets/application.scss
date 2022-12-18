@@ -14,7 +14,7 @@
  *= require_self
  */
 
- body {
+body {
     margin: 0;
     padding: 0;
 }
@@ -81,7 +81,11 @@ header.main {
                 }
                 a:hover {
                     background: none;
+<<<<<<< HEAD
                     color: rgb(235, 104, 43);
+=======
+                    color: rgb(15, 10, 10);
+>>>>>>> master
                 }
             }
         }   
@@ -89,6 +93,7 @@ header.main {
     main {
         padding: 0.5em;
     }
+<<<<<<< HEAD
 
     .notice, #notice {
         background: #ffb;
@@ -101,3 +106,6 @@ header.main {
         text-align: center;
     }
 }
+=======
+}
+>>>>>>> master
