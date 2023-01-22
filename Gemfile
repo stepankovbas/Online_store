@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "sassc-rails"
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
